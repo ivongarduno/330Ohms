@@ -17,7 +17,13 @@ export default class MapView extends Component {
 
     render () {
         const center = [ this.state.lat, this.state.lng ]
-        const locateOptions = {};
+        const locateOptions = {
+            position: 'topright',
+            strings: {
+                title: 'Show me where I am, yo !'
+            },
+            onActivate: () =>{}
+        };
         return (
             <div>
                 <Navbar/>
