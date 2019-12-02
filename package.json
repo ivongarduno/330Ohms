@@ -2,7 +2,7 @@
   "name": "ohms",
   "version": "0.1.0",
   "private": true,
-  "homepage": ".",
+  "homepage": "https://ivongarduno.github.io/330Ohms/",
   "dependencies": {
     "gh-pages": "^2.1.1",
     "leaflet": "^1.6.0",
